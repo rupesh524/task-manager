@@ -4,6 +4,7 @@ import CONNECTDB from "./DB/index.js"
 dotenv.config();
 
 
+
 CONNECTDB()
 .then(()=>{
       const PORT = 4000 || process.env.PORT;
